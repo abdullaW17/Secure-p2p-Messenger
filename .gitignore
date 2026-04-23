@@ -1,0 +1,47 @@
+# Keys directory — contains private key (NEVER commit)
+keys/
+keys/*.key
+
+# Logs — may contain sensitive information
+logs/
+logs/*.log
+
+# Received files
+received_files/
+
+# Python environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Environment variables — contains secrets
+.env
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# pytest cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Test artifacts
+*.pyc
